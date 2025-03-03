@@ -1,0 +1,34 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "Simple notes taking app using nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon ./app.js",
+    "remove" : "node app.js remove --title=\"ss\"",
+    "add" : "node app.js add --title=\"ss\" --description=\"sasd\"",
+    "inspectadd": "node inspect app.js add --title=\"sAD111ASD1\" --description=\"sasd\"",
+    "list": "node app.js list",
+    "inspectread": "node inspect app.js read --title=\"11\"",
+    "read": "node app.js read --title=\"11\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xeieshan/Notes-App.git"
+  },
+  "keywords": [
+    "notes-app",
+    "nodejs"
+  ],
+  "author": "Zeeshan Haider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xeieshan/Notes-App/issues"
+  },
+  "homepage": "https://github.com/xeieshan/Notes-App#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "validator": "^13.6.0",
+    "yargs": "^17.0.1"
+  }
+}
