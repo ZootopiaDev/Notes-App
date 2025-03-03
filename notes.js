@@ -7,6 +7,7 @@ const addNotes = (title, description) => {
 
   const note = notes.find((note) => note.title === title);
 
+  // check if note is null
   if (!note) {
     notes.push({
       title: title,
